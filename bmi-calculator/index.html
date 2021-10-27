@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<title>BMI Calculator</title>
+</head>
+<body>
+
+<header>
+	<nav id="header-nav" class="navbar navbar-default">
+		<div class="navbar-header">
+			<div class="navbar-brand">
+				<p class="text-center">BMI Calculator</p>
+			</div> <!-- navbar-brand -->
+
+		</div> <!-- navbar-header -->
+	</nav>
+</header>
+
+<div id="main-content" class="jumbotron	 container">
+	<div id="formID">
+		<label for="name">Name</label>
+		<input name="Name" id="name" placeholder="Enter Your Name" required>
+		<hr>
+
+		<label for="weight">Weight</label>
+		<input name="Weight" id="weight" placeholder="Enter Your Weight in Kilograms" min="0" required>
+		<hr>
+
+		<label for="height">Height</label>
+		<input name="Height" id="height" placeholder="Enter Your Height in Centimetres" min="0" required>
+		<hr>
+
+		<button id="calculate--btn">Calculate</button>
+	</div>
+	
+	<div id="status" class="status--container"></div>
+</div>
+
+
+
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+/*header*/
+#header-nav {
+	margin: 0;
+	border: 0;
+	border-radius: 0;
+	padding: 30px 30px 30px 20px;
+}
+
+.navbar-header, .navbar-brand {
+	width: 100%;
+}
+
+
+.navbar-brand p {
+	font-size: 40px;
+	color: #000;
+}
+
+/*end header*/
+	
+
+/*jumbotron*/
+
+input, button {
+	width: 100%;
+	padding: 15px;
+}
+	
+button#calculate--btn {
+	background-color: #228b22;
+	color: #fff;
+}
+
+button#calculate--btn:hover {
+	background-color: #b9b9b9;
+	color: #000;
+}
+
+#status {
+	margin: 30px;
+	font-size: 20px;
+}
+
+/*end jumbotron*/
